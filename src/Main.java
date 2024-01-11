@@ -4,8 +4,6 @@ import allAnimal.Frog;
 
 public class Main {
     public static void main(String[] args) {
-        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
-        // to see how IntelliJ IDEA suggests fixing it.
         Frog frog = new Frog(false, false, 1);
         Cat cat= new Cat(true,true,1);
         Dog dog=new Dog(true,true,1);
