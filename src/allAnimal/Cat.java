@@ -23,10 +23,8 @@ public class Cat extends Animal implements Land {
     public void sayHello(int mood) {
         if (mood == super.MOOD_HAPPY) {
             System.out.println("purr, purr");
-            super.mood=1;
         } else if (mood == super.MOOD_SCARE) {
             System.out.println("hiss");
-            super.mood=2;
         }
     }
 }
