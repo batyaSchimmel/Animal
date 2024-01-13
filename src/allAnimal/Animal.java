@@ -15,6 +15,15 @@ public abstract class Animal {
     public abstract void sayHello(int mood);
     public void sayHello(){};
 
+    public int getMood() {
+        return mood;
+    }
+    public void changeMood() {
+        if (mood == MOOD_HAPPY)
+            mood = MOOD_SCARE;
+        else mood = MOOD_HAPPY;
+    }
+    
     //Getters & Setters
     public boolean isMammalas(){
     return mammalas;
