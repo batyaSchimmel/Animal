@@ -19,6 +19,7 @@ public class Cat extends Animal implements Land {
         System.out.println("meow~");
     }
 
+    @Override
     public void sayHello(int mood) {
         if (mood == super.MOOD_HAPPY) {
             System.out.println("purr, purr");
