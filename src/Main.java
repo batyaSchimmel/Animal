@@ -7,7 +7,8 @@ public class Main {
         Frog frog = new Frog(false, false, 1);
         Cat cat= new Cat(true,true,1);
         Dog dog=new Dog(true,true,1);
-System.out.println("My dog wants to say hello to you, dogs greet people by: ");
+        //Dog
+        System.out.println("My dog wants to say hello to you, dogs greet people by: ");
         dog.sayHello();
         System.out.println("Dogs have "+dog.getNumberOfLegs() +" legs");
         System.out.println("Is a dog a Mammalian? "+dog.isMammalas());
@@ -16,7 +17,7 @@ System.out.println("My dog wants to say hello to you, dogs greet people by: ");
         dog.sayHello(1);
         System.out.println("When my dog is frightened, it will be ");
         dog.sayHello(2);
-
+        //Cat
         System.out.println("My cat wants to say hello to you, cats greet people by: ");
         cat.sayHello();
         System.out.println("Cats have "+cat.getNumberOfLegs() +" legs");
@@ -26,7 +27,7 @@ System.out.println("My dog wants to say hello to you, dogs greet people by: ");
         cat.sayHello(1);
         System.out.println("When my cat is frightened, it does ");
         cat.sayHello(2);
-
+        //Frog
         System.out.println("Frog have "+frog.getNumberOfLegs() +" legs");
         System.out.println("Is a frog a Mammalian? "+frog.isMammalas());
         System.out.println("Is a frog a Carnivorous? "+frog.isCarnivorous());
