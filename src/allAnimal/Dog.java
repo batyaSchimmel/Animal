@@ -15,11 +15,11 @@ public class Dog extends Animal implements Land {
     }
 
     //Methods
-    @Override
     public void sayHello() {
         System.out.println("wagging their tails");
     }
 
+    @Override
     public void sayHello(int mood) {
         if (mood == super.MOOD_HAPPY) {
             System.out.println("bark loudly");
