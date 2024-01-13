@@ -22,7 +22,6 @@ public class Frog extends Animal implements Land, Water {
     }
 
     //Methods
-    @Override
     public void sayHello(int mood) {
         if (mood == super.MOOD_HAPPY) {
             System.out.println("quack quack quack");
