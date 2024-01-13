@@ -14,9 +14,11 @@ public class Main {
         System.out.println("Is a dog a Mammalian? "+dog.isMammalas());
         System.out.println("Is a dog a Carnivorous? "+dog.isCarnivorous());
         System.out.println("When my dog feel comfortable being touched, it will ");
-        dog.sayHello(1);
+        dog.sayHello(dog.getMood());
+        dog.changeMood();
         System.out.println("When my dog is frightened, it will be ");
-        dog.sayHello(2);
+        dog.sayHello(dog.getMood());
+        
         //Cat
         System.out.println("My cat wants to say hello to you, cats greet people by: ");
         cat.sayHello();
@@ -24,9 +26,11 @@ public class Main {
         System.out.println("Is a cat a Mammalian? "+cat.isMammalas());
         System.out.println("Is a cat a Carnivorous? "+cat.isCarnivorous());
         System.out.println("When my cat is in a good mood, it does");
-        cat.sayHello(1);
+        cat.sayHello(cat.getMood());
+        cat.changeMood();
         System.out.println("When my cat is frightened, it does ");
-        cat.sayHello(2);
+        cat.sayHello(cat.getMood());
+        
         //Frog
         System.out.println("Frog have "+frog.getNumberOfLegs() +" legs");
         System.out.println("Is a frog a Mammalian? "+frog.isMammalas());
@@ -34,9 +38,9 @@ public class Main {
         System.out.println("Is a frog has gills? "+frog.hasGills());
         System.out.println("Is a frog has lays eggs? "+frog.hasLaysEggs());
         System.out.println("When my frog in a good mood, he does");
-        frog.sayHello(1);
+        frog.sayHello(frog.getMood());
+        frog.changeMood();
         System.out.println("When my frog is frightened, it will  ");
-        frog.sayHello(2);
-
+        frog.sayHello(frog.getMood());
     }
 }
